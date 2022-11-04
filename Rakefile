@@ -7,4 +7,5 @@ task :console do
   ActiveRecord::Base.logger = Logger.new(STDOUT)
   # Start a Pry session
   Pry.start
+  # Test
 end
